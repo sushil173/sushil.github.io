@@ -1,0 +1,168 @@
+body {
+  /* margin: 10px 150px; */
+  margin: 0px 0px;
+  font-family: sans-serif;
+}
+
+.main {
+  margin: 10px 220px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+h5 {
+  margin: 0 0;
+  font-size: 12px;
+}
+
+.logo {
+  flex-basis: 15%;
+  /* border: 1px solid; */
+}
+
+.nav {
+  flex-basis: 65%;
+  /* border: 1px solid; */
+}
+
+.search {
+  flex-basis: 20%;
+  border: 1px solid;
+}
+
+.section-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sign-in {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.upper-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.banner {
+  background-color: #A92217;
+  color: #FDFAFA;
+}
+
+.nav-section {
+  margin: 0 220px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.vl {
+  height: 16px;
+  border-left: 1px solid rgba(235, 235, 235, 0.5);
+
+}
+
+.sub-heading {
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+}
+
+
+.cover {
+  border-bottom: 2.5px solid white;
+}
+
+
+.new-section {
+  margin: 10px 220px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.left-side {
+  flex-basis: 50%;
+}
+
+.left-side-news {
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-text {
+  margin: 5px;
+  border: 1px solid;
+  height: 200px;
+  
+}
+
+.grid-image {
+  margin: 5px;
+  border: 1px solid;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.grid-news-3{
+  margin: 5px;
+  border: 1px solid;
+  height: 200px;
+  
+}
+
+.right-side {
+  flex-basis: 50%;
+}
+
+.right-side-news {
+  border: 1px solid;
+  display: flex;
+}
+
+.left{
+  flex-basis: 50%;
+  margin: 5px;
+  border: 1px solid;
+}
+.right{
+  flex-basis: 50%;
+  margin: 5px;
+  border: 1px solid;
+}
+
+.left-container{
+  display:flex;
+  flex-direction: column;
+}
+
+.left-up{
+  border: 1px solid;
+  flex-basis: 40%;
+}
+.left-down{
+  border: 1px solid;
+  flex-basis: 60%;
+}
